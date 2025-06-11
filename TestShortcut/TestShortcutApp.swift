@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct TestShortcutApp: App {
+    
+    init() {
+        TestShortcuts.updateAppShortcutParameters()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
